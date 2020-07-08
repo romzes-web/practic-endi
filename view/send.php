@@ -50,9 +50,9 @@ table {
       <th width="30%">
         <div class="vertical-menu">
             <a href="#" class="active">MENU</a>
-            <a href="view/main.php">Main</a>
-            <a href="view/send.php">Send file</a>
-            <a href="view/my.php">My files</a>
+            <a href="main.php">Main</a>
+            <a href="#">Send file</a>
+            <a href="my.php">My files</a>
             <a href="#">Received files</a>
             <a href="#">Log out</a>
         </div>
@@ -60,7 +60,10 @@ table {
       <th width="60%">
         <div class="content">
             <p>CONTENT</p>
-
+            <form action="view/main.php" method="post" enctype="multipart/form-data">
+              <input type="file" name="image">
+              <button type="submit">Submit</button>
+            </form>
         </div>
       </th>
     </tr>
