@@ -1,6 +1,6 @@
 <?
 function createTable(){
   $dbtable = getTable();
-  return $dbtable
+  return $dbtable;
 }
 ?>
