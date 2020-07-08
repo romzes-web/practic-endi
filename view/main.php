@@ -1,5 +1,3 @@
 <?
-  function viewTable(){
-    echo "<h1>Main page</h1>";
-  }
+  var_dump($_FILES);
 ?>

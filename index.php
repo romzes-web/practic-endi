@@ -2,7 +2,7 @@
 require_once("model/table.php");
 require_once("controller/pageController.php");
 require_once("view/main.php");
-openPage();
+
 
 
 echo<<<HTML
@@ -49,6 +49,7 @@ table {
 
 </style>
 <br>
+
 <table width="90%">
     <tr>
       <th width="30%">
@@ -64,6 +65,10 @@ table {
       <th width="60%">
         <div class="content">
             <p>CONTENT</p>
+            <form action="view/main.php" method="post" enctype="multipart/form-data">
+              <input type="file" name="image">
+              <button type="submit">Submit</button>
+            </form>
         </div>
       </th>
     </tr>
