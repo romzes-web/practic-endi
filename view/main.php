@@ -1,3 +1,6 @@
 <?php
-  echo "main page";
+
+  function viewTable(a,b){
+    echo "<h1>Main page</h1>" + a + b;
+  }
 ?>

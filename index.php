@@ -1,5 +1,9 @@
 <?php
-session_start();
+require_once("model/table.php");
+require_once("controller/pageController.php");
+require_once("view/main.php");
+openPage();
+
 
 echo<<<HTML
 <style media="screen">
