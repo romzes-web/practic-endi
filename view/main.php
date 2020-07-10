@@ -36,7 +36,7 @@ echo<<<HTML
   }
   </style>
   <br>
-  <table width="90%">
+  <table width="1000px">
       <tr>
         <th width="30%">
           <div class="vertical-menu">
