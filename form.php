@@ -1,3 +1,3 @@
 <?php
-echo "FORM page";
+var_dump($_FILES);
 ?>

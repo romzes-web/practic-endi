@@ -60,7 +60,7 @@ table {
       <th width="60%">
         <div class="content">
             <p>CONTENT</p>
-            <form action="view/main.php" method="post" enctype="multipart/form-data">
+            <form action="../form.php" method="post" enctype="multipart/form-data">
               <input type="file" name="image">
               <button type="submit">Submit</button>
             </form>
