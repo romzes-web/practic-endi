@@ -16,5 +16,3 @@ function uploadImage(){
 uploadImage($_FILES['123']);
 
 ?>
-
-<img src="/uploads/123.jpg" alt="">
